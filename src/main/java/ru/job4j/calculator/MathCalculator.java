@@ -13,7 +13,7 @@ public class MathCalculator {
                 + div(first, second);
     }
 
-    public static double sumAndMultiplyAndDiffandDiv(double first, double second) {
+    public static double summa(double first, double second) {
         return sum(first, second)
                 + multiply(first, second)
                 + diff(first, second)
@@ -22,7 +22,7 @@ public class MathCalculator {
 
     public static void main(String[] args) {
         System.out.println("Результат расчета сложения суммы и умножения равен: " + sumAndMultiply(10, 20));
-        System.out.println("Результат расчета сложения разности и деления равен:" + diffAndDiv(10, 20));
-        System.out.println("Результат расчета сложения суммы, умножения, разности и деления равен:" + sumAndMultiplyAndDiffandDiv(10, 20));
+        System.out.println("Результат расчета сложения разности и деления равен: " + diffAndDiv(10, 20));
+        System.out.println("Сумма вычислений всех операций равна: " + summa(10, 20));
     }
 }
