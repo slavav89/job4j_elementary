@@ -32,4 +32,3 @@ public class SqAreaTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 }
-
