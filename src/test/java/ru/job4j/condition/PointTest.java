@@ -39,7 +39,7 @@ public class PointTest {
     }
 
     @Test
-    public void when102to93then80dot006() {
+    public void when102to903then80dot006() {
         double expected = 80.006;
         int x1 = 10;
         int y1 = 2;
