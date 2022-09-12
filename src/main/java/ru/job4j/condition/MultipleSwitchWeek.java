@@ -3,19 +3,19 @@ package ru.job4j.condition;
 public class MultipleSwitchWeek {
     public static int numberOfDay(String name) {
         return switch (name) {
-            case "Понедельник", "Monday" -> 1;
-            case "Вторник", "Tuesday" -> 2;
-            case "Среда", "Wednesday" -> 3;
-            case "Четверг", "Thursday" -> 4;
-            case "Пятница", "Friday" -> 5;
-            case "Суббота", "Saturday" -> 6;
-            case "Воскресенье", "Sunday" -> 7;
+            case "РџРѕРЅРµРґРµР»СЊРЅРёРє", "Monday" -> 1;
+            case "Р’С‚РѕСЂРЅРёРє", "Tuesday" -> 2;
+            case "РЎСЂРµРґР°", "Wednesday" -> 3;
+            case "Р§РµС‚РІРµСЂРі", "Thursday" -> 4;
+            case "РџСЏС‚РЅРёС†Р°", "Friday" -> 5;
+            case "РЎСѓР±Р±РѕС‚Р°", "Saturday" -> 6;
+            case "Р’РѕСЃРєСЂРµСЃРµРЅСЊРµ", "Sunday" -> 7;
             default -> 0;
         };
     }
 
     public static void main(String[] args) {
-        int rsl = MultipleSwitchWeek.numberOfDay("Вторник");
+        int rsl = MultipleSwitchWeek.numberOfDay("Р’С‚РѕСЂРЅРёРє");
         System.out.println(rsl);
     }
 
