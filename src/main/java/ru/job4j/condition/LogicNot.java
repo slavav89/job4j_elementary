@@ -38,6 +38,5 @@ public class LogicNot {
         System.out.println(rsl5);
         boolean rsl6 = evenOrNotPositive(11);
         System.out.println(rsl6);
-
     }
 }
